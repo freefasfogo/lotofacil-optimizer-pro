@@ -1,0 +1,39 @@
+{
+    "jogos": 20,
+    "dezenas": 15,
+    "min_dezenas": 15,
+    "max_dezenas": 15,
+    "min_numero": 1,
+    "max_numero": 25,
+    "max_overlap": 8,
+    "usar_genetico": true,
+    "geracoes": 500,
+    "populacao": 1000,
+    "taxa_mutacao": 0.1,
+    "taxa_crossover": 0.8,
+    "temperatura_inicial": 1000,
+    "temperatura_final": 1,
+    "cooling_rate": 0.95,
+    "tabu_tenure": 10,
+    "mostrar_porcentagem": true,
+    
+    "pesos": {
+        "frequencia": 0.25,
+        "sobreposicao": 0.25,
+        "linhas": 0.15,
+        "colunas": 0.15,
+        "pares": 0.10,
+        "moldura": 0.05,
+        "consecutivo": 0.05
+    },
+    
+    "validacoes": {
+        "min_pares": 6,
+        "max_pares": 9,
+        "min_impares": 6,
+        "max_impares": 9,
+        "min_soma": 100,
+        "max_soma": 200,
+        "max_consecutivos": 2
+    }
+}
